@@ -97,5 +97,112 @@ This task focuses on analyzing a **Heart Disease dataset** using data science te
 
 This analysis helps in understanding major health indicators that contribute to heart disease. It provides useful insights that can support early prediction and awareness.
 <---------------------------------------------------------------------------------------------->
+# 🏠 House Price Prediction (Zillow Dataset)
 
+## 📌 Project Overview
+This project predicts house prices using Zillow housing data. Machine Learning regression models are used to analyze housing trends and estimate property values based on historical data.
+
+---
+
+## 🎯 Objective
+- Predict house prices using regression techniques  
+- Analyze housing trends using Zillow dataset  
+- Evaluate model performance using MAE and RMSE  
+
+---
+
+## 📁 Dataset
+Dataset used:
+- Zillow House Price Data (City level)
+- File used: `City_Zhvi_3bedroom.csv`
+
+📌 Source: Kaggle Zillow Dataset
+
+---
+
+## 🧰 Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+---
+
+## ⚙️ Workflow
+
+### 1. Data Loading
+Load the Zillow dataset using Pandas.
+
+### 2. Data Preprocessing
+- Remove missing values  
+- Select relevant features  
+- Extract latest house price values  
+
+### 3. Train-Test Split
+Split data into training and testing sets (80/20).
+
+### 4. Feature Scaling
+Standardize data using StandardScaler.
+
+### 5. Model Training
+Train a Linear Regression model on training data.
+
+### 6. Prediction
+Predict house prices using test data.
+
+### 7. Evaluation
+Evaluate model using:
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+
+### 8. Visualization
+Plot actual vs predicted house prices.
+
+---
+
+## 📊 Results
+- Model successfully predicts housing prices with reasonable accuracy  
+- Error metrics show model performance (MAE & RMSE)  
+- Visualization shows correlation between actual and predicted values  
+
+---
+
+## 📈 Model Used
+- Linear Regression
+
+---
+
+## 📌 Evaluation Metrics
+- **MAE (Mean Absolute Error)**: Measures average prediction error  
+- **RMSE (Root Mean Squared Error)**: Measures squared error sensitivity  
+
+---
+
+## 🚀 How to Run
+
+1. Open Google Colab or Jupyter Notebook  
+2. Upload dataset file: `City_Zhvi_3bedroom.csv`  
+3. Run the Python notebook step by step  
+4. View results and visualization  
+
+---
+
+## 📷 Output
+- Actual vs Predicted price graph  
+- MAE and RMSE values printed in console  
+
+---
+
+## 👨‍🎓 Skills Learned
+- Regression modeling  
+- Data preprocessing  
+- Feature scaling  
+- Model evaluation  
+- Data visualization  
+
+---
+
+## 📌 Author
+Student Project – Machine Learning Task 6
 
